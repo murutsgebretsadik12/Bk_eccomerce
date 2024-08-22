@@ -11,7 +11,7 @@ views = Blueprint('views', __name__)
 @views.route('/')
 def home():
 
-    items = Product.query.filter_by(flash_sale=True)
+    items = Product.query.filter_by(flash_sale=True).limit(8).all()
 
     return render_template('home.html', items=items, cart=Cart.query.filter_by(customer_link=current_user.id).all()
                            if current_user.is_authenticated else [])

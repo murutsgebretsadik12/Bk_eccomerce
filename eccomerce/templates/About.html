@@ -1,0 +1,169 @@
+{% extends 'base.html' %}
+
+{% block title %} About {% endblock %}
+
+
+{% block body %}
+
+   <!--start product details-->
+   <section class="section-padding">
+    <div class="container">
+       <div class="row g-4">
+          <div class="col-12 col-xl-6">
+            <h3 class="fw-bold">Our Story</h3>
+            <p>
+                Founded in 2018, we began as a small team with a big vision: to revolutionize the way people shop online. What started as a humble garage operation quickly grew into a thriving e-commerce platform, connecting millions of customers with the best products from around the world.
+            </p>
+            <p>
+                Our commitment to quality and customer satisfaction has driven our success. We work tirelessly to handpick only the finest products, ensuring that every item meets our high standards. From fashion and electronics to home goods and beyond, our curated collection reflects our passion for excellence.
+            </p>
+            <p>
+                At the heart of our business is you, our valued customer. We believe in providing a seamless shopping experience, backed by top-notch customer support and fast, reliable shipping. As we continue to grow, our mission remains the same: to bring you the best products at unbeatable prices, all while making your shopping experience as enjoyable as possible.
+            </p>
+          </div>
+          <div class="col-12 col-xl-6">
+             <img src="https://images.pexels.com/photos/7679877/pexels-photo-7679877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" alt="">     
+          </div>
+       </div><!--end row-->
+
+       <div class="separator section-padding">
+        <div class="line"></div>
+        <h3 class="mb-0 h3 fw-bold">Why Choose Us</h3>
+        <div class="line"></div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-xl-3 g-4 why-choose">
+        <div class="col d-flex">
+            <div class="card rounded-0 shadow-none w-100">
+                <div class="card-body">
+                    <h5 class="my-3 fw-bold">Free Shipping</h5>
+                    <p class="mb-0">Enjoy fast, free shipping on all orders. We deliver your favorite products directly to your door, no matter where you are.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="card rounded-0 shadow-none w-100">
+                <div class="card-body">
+                    <h5 class="my-3 fw-bold">100% Money-Back Guarantee</h5>
+                    <p class="mb-0">Shop with confidence! If you're not completely satisfied with your purchase, we offer a hassle-free, full refund within 30 days.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="card rounded-0 shadow-none w-100">
+                <div class="card-body">
+                    <h5 class="my-3 fw-bold">24/7 Customer Support</h5>
+                    <p class="mb-0">We're here for you, day or night. Our dedicated support team is available 24/7 to answer your questions and resolve any issues.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+       <div class="separator section-padding">
+        <div class="line"></div>
+        <h3 class="mb-0 h3 fw-bold">Shop By Brands</h3>
+        <div class="line"></div>
+      </div>
+
+       <div class="brands">
+        <div class="row row-cols-2 row-cols-lg-5 g-4">
+          <div class="col">
+            <div class="p-3 border rounded brand-box">
+              <div class="d-flex align-items-center">
+                <a href="javascript:;">
+                  <img src="{{ url_for('static', filename='images/brands/01.webp') }}" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded brand-box">
+              <div class="d-flex align-items-center">
+                <a href="javascript:;">
+                  <img src="{{ url_for('static', filename='images/brands/02.webp') }}" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded brand-box">
+              <div class="d-flex align-items-center">
+                <a href="javascript:;">
+                  <img src="{{ url_for('static', filename='images/brands/03.webp') }}" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded brand-box">
+              <div class="d-flex align-items-center">
+                <a href="javascript:;">
+                  <img src="{{ url_for('static', filename='images/brands/03.webp') }}" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded brand-box">
+              <div class="d-flex align-items-center">
+                <a href="javascript:;">
+                  <img src="{{ url_for('static', filename='images/brands/04.webp') }}" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded brand-box">
+              <div class="d-flex align-items-center">
+                <a href="javascript:;">
+                  <img src="{{ url_for('static', filename='images/brands/05.webp') }}" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded brand-box">
+              <div class="d-flex align-items-center">
+                <a href="javascript:;">
+                  <img src="{{ url_for('static', filename='images/brands/06.webp') }}" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded brand-box">
+              <div class="d-flex align-items-center">
+                <a href="javascript:;">
+                  <img src="{{ url_for('static', filename='images/brands/07.webp') }}" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded brand-box">
+              <div class="d-flex align-items-center">
+                <a href="javascript:;">
+                  <img src="{{ url_for('static', filename='images/brands/09.webp') }}" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded brand-box">
+              <div class="d-flex align-items-center">
+                <a href="javascript:;">
+                  <img src="{{ url_for('static', filename='images/brands/10.webp') }}" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end row-->
+      </div>
+
+    </div>
+  </section>
+   <!--start product details-->
+
+   {% endblock %}

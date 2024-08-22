@@ -17,6 +17,17 @@ def home():
                            if current_user.is_authenticated else [])
 
 
+@views.route('/about')
+def about():
+    return render_template('about.html')
+
+@views.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+@views.route('/thank_you')
+def thank_you():
+    return render_template('thank_you.html')
 
 
 @views.route('/add-to-cart/<int:item_id>')

@@ -1,1 +1,21 @@
 https://docs.google.com/document/d/1DSDuhEFgaEWgZgXp2F4BwUpQRoN7ngpQ0mCqFgw0dTc/edit
+
+Hosted URL: https://bk-eccomerce.onrender.com
+
+wire-frame
+
+1./ (Home)
+2./about (About Page)
+3./contact (Contact Page)
+4./thank_you (Thank You Page)
+5./add-to-cart/<int:item_id> (Add to Cart)
+6./cart (Display Cart)
+7./pluscart (Increase Cart Quantity)
+8./minuscart (Decrease Cart Quantity)
+9./removecart (Remove from Cart)
+10./add-shop-items
+11./shop-items
+12/update-item/<int:item_id>
+13/delete-item/<int:item_id>
+14./profile
+
